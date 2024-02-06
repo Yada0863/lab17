@@ -8,14 +8,14 @@ int main(){
 	cout << "Length of A: ";
 	cin >> nA;
 	
-	A = new int;
+	A = new int[nA];
 	cout << "Input Array A: ";
 	for(int i=0; i < nA; i++) cin >> A[i];
 	
 	cout << "Length of B: ";
 	cin >> nB;
 	
-	B = new int;
+	B = new int[nB];
 	cout << "Input Array B: ";
 	for(int i=0; i < nB; i++) cin >> B[i];
 	
